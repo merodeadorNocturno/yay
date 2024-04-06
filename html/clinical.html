@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <title>YayLeads Edit User</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="http://127.0.0.1:8001/static/styles/css/all.min.css"/>
+  
+
+  <style>
+    /* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+  </style>
+</head>
+
+<body>
+
+<div class="container"> <!-- CONTAINER -->
+
+
+    <section> <!-- Navbar Section -->
+
+        <nav class="navbar" role="navigation" aria-label="main navigation"> <!-- Navbar -->
+          <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+              <img
+                src="https://media.licdn.com/dms/image/C4E0BAQFiPmMfUP226g/company-logo_200_200/0/1672639387526/yayleadsmx_logo?e=2147483647&v=beta&t=iTE1q3k9J3Q6vBt7U8N4WNk1vuj8b3W7auP0a4hmHTg"
+                width="64" height="64" />
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+  
+              <div class="navbar-dropdown">
+                <a href="#" class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item">Jobs</a>
+              </div>
+            </div>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+              data-target="navbarBasicExample">
+              <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+            </a>
+          </div>
+  
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item"> Users </a>
+              <a class="navbar-item"> Schools </a>
+              <a class="navbar-item is-active"> Clinics </a>
+  
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link"> More </a>
+  
+                <div class="navbar-dropdown">
+                  <a class="navbar-item"> About </a> <a class="navbar-item"> Jobs </a> <a class="navbar-item"> Contact
+                  </a>
+                  <hr class="navbar-divider" />
+                  <a class="navbar-item"> Report an issue </a>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </nav>
+      </section>
+  
+      <section class="hero is-small is-primary"> <!-- head banner -->
+        <div class="hero-body">
+          <p class="title">Hero title</p>
+          <p class="subtitle">Hero subtitle</p>
+        </div>
+      </section>
+      
+      <div class="block"></div>
+
+<section> <!-- table -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th><abbr title="Clinic_Id">Id</abbr></th>
+        <th>Nombre</th>
+        <th><abbr title="es-compa&ntilde;&iacute;a">Cia</abbr></th>
+        <th><abbr title="Correo Electr&oacute;nico">links</abbr></th>
+        <th><abbr title="Especialidad">Esp</abbr></th>
+        <th><abbr title="Tel&eacute;fono">Tel</abbr></th>
+        <th><abbr title="Fecha de primer Contacto">Contactado</abbr></th>
+        <th><abbr title="% Avance">Pct</abbr></th>
+        <th><abbr title="Notas de avance">Notas</abbr></th>
+        <th><abbr title="Servicios Ofrecidos">Srv</abbr></th>
+        <th>Resolución</th>
+        <th rowspan="2">Acciones</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th><abbr title="Clinic_Id">Id</abbr></th>
+        <th>Nombre</th>
+        <th><abbr title="es-compa&ntilde;&iacute;a">Cia</abbr></th>
+        <th><abbr title="Correo Electr&oacute;nico">links</abbr></th>
+        <th><abbr title="Especialidad">Esp</abbr></th>
+        <th><abbr title="Tel&eacute;fono">Tel</abbr></th>
+        <th><abbr title="Fecha de primer Contacto">Contactado</abbr></th>
+        <th><abbr title="% Avance">Pct</abbr></th>
+        <th><abbr title="Notas de avance">Notas</abbr></th>
+        <th><abbr title="Servicios Ofrecidos">Srv</abbr></th>
+        <th>Resolución</th>
+        <th>Acciones</th>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <th>1</th>
+        <td>
+          Dra. Mariana Morales Bargas
+          
+        </td>
+        <td>
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </td>
+        <td>
+            <span class="icon is-small is-left">
+              <a href="mailto:mariana_mbargas@hotmail.com"
+              title="email Dra. Mariana Morales Bargas"><i class="fas fa-envelope"></i></a>
+            </span>
+        </td>
+        <td>Ginecología</td>
+        <td>9991633323</td>
+        <td>2024-04-01</td>
+        <td class="is-danger">
+          <span class="icon is-small is-left tooltip">
+            <i class="fas fa-trash"></i>
+            <span class="tooltiptext">Lost</span>
+          </span>
+          
+        </td>
+        <td><abbr title="Enviar información por correo">Notas</td>
+        <td>Social Networks</td>
+        <td>
+          <abbr title="La asistente no quiso tomar la propuesta, menciona que ya cuenta con el servicio">La asistente no quiso...</abbr>
+          
+        </td>
+        <td class="has-background-info-dark">
+          <span class="icon is-small is-left">
+            <i class="fas fa-pencil-alt"></i>
+          </span>
+        </td>
+        <td class="has-background-danger-dark">
+          <span class="icon is-small is-left">
+            <i class="fas fa-ban"></i>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <th>2</th>
+
+        <td>
+          Dra. América Ramírez
+        </td>
+        
+        <td>
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </td>
+        
+        <td>
+            <span class="icon is-small is-left">
+              <a href="mailto:americarara1979@gmail.com "
+              title="email Dra. América Ramírez"><i class="fas fa-envelope"></i></a>
+            </span>
+        </td>
+        
+        <td>Odontología</td>
+        <td>5524972300</td>
+        <td>2024-04-01</td>
+        
+        <td class="is-warning"><span class="icon is-small is-left">
+          <span class="icon is-small is-left tooltip">
+            <i class="fas fa-user-secret"></i>
+            <span class="tooltiptext">Investigación</span>
+          </span>
+        </td>
+
+        <td><abbr title="Pide que se le envíe la info primero por correo luego se agenda video llamada">Notas</td>
+        
+        <td>Social Networks</td>
+
+        <td>
+          <abbr title="Menciona que ya cuentan con el servicio y que está bien con la empresa que está. No le interesa recibir propuestas que mejoren el servicoio ">Menciona que ya cuentan con el servicio...</abbr>
+        </td>
+        <td class="has-background-info-dark">
+          <span class="icon is-small is-left">
+            <i class="fas fa-pencil-alt"></i>
+          </span>
+        </td>
+        <td class="has-background-danger-dark">
+          <span class="icon is-small is-left">
+            <i class="fas fa-ban"></i>
+          </span>
+        </td>
+
+      </tr>
+      <!-- HOHOHOHO -->
+      <tr>
+        <th>3</th>
+        <td>
+          Dra. Valeria Cabrera Morales
+        </td>
+        <td>
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </td>
+        <td>
+          <span class="icon is-small is-left">
+            <a href="https://www.instagram.com/valeriacm194/" target="_blank" title="Instagram Dra. Valeria Cabrera Morales"><i class="fab fa-instagram"></i></a>
+          </span>
+        </td>
+        <td>Medicina del deporte</td>
+        <td>5524972300</td>
+        <td>2024-04-01</td>
+        <td class="is-success">
+          <span class="icon is-small is-left tooltip">
+            <i class="far fa-handshake"></i>
+            <span class="tooltiptext">Trato cerrado</span>
+          </span>
+        </td>
+        <td><abbr title="Pide que se le envíe la info primero por correo luego se agenda video llamada">Notas</td>
+        <td>Social Networks</td>
+        <td>
+          <abbr title="Contrato cerrado">Contrato cerrado</abbr>
+        </td>
+        <td class="has-background-info-dark">
+          <span class="icon is-small is-left">
+            <i class="fas fa-pencil-alt"></i>
+          </span>
+        </td>
+        <td class="has-background-danger-dark">
+          <span class="icon is-small is-left">
+            <i class="fas fa-ban"></i>
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section> <!-- /table -->
+<div class="block"></div>
+
+<section> <!-- FOOTER -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+          The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+          website content is licensed
+          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >CC BY NC SA 4.0</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </section>
+
+</div> <!-- /CONTAINER -->
+</body>
+</html>

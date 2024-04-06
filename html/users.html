@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <title>YayLeads Edit User</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <div class="container">
+    <section> <!-- Navbar Section -->
+
+      <nav class="navbar" role="navigation" aria-label="main navigation"> <!-- Navbar -->
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+            <img
+              src="https://media.licdn.com/dms/image/C4E0BAQFiPmMfUP226g/company-logo_200_200/0/1672639387526/yayleadsmx_logo?e=2147483647&v=beta&t=iTE1q3k9J3Q6vBt7U8N4WNk1vuj8b3W7auP0a4hmHTg"
+              width="64" height="64" />
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+
+            <div class="navbar-dropdown">
+              <a href="#" class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">Jobs</a>
+            </div>
+          </div>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item is-active"> Users </a>
+            <a class="navbar-item"> Schools </a>
+            <a class="navbar-item"> Clinics </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link"> More </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item"> About </a> <a class="navbar-item"> Jobs </a> <a class="navbar-item"> Contact
+                </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item"> Report an issue </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </section>
+
+    <section class="hero is-small is-primary"> <!-- head banner -->
+      <div class="hero-body">
+        <p class="title">Hero title</p>
+        <p class="subtitle">Hero subtitle</p>
+      </div>
+    </section>
+    
+    <div class="block"></div>
+
+    <section> <!-- Edit user -->
+      <table class="table is-bordered is-striped is-hoverable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>john@example.com</td>
+                <td>User</td>
+                <td>
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                  &nbsp;
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-trash"></i>
+                  </span>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>jane@example.com</td>
+                <td>Admin</td>
+                <td>
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                  &nbsp;
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-trash"></i>
+                  </span>
+                </td>
+            </tr>
+            <!-- Add more rows for other users -->
+        </tbody>
+    </table>
+    </section>
+
+    <div class="block"></div>
+
+
+    <section> <!-- FOOTER -->
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+            The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+            website content is licensed
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >CC BY NC SA 4.0</a
+            >.
+          </p>
+        </div>
+      </footer>
+    </section>
+
+  </div>
+</body>

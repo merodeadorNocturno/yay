@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <title>YayLeads Edit User</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <div class="container">
+    <section> <!-- Navbar Section -->
+
+      <nav class="navbar" role="navigation" aria-label="main navigation"> <!-- Navbar -->
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+            <img
+              src="https://media.licdn.com/dms/image/C4E0BAQFiPmMfUP226g/company-logo_200_200/0/1672639387526/yayleadsmx_logo?e=2147483647&v=beta&t=iTE1q3k9J3Q6vBt7U8N4WNk1vuj8b3W7auP0a4hmHTg"
+              width="64" height="64" />
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+
+            <div class="navbar-dropdown">
+              <a href="#" class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">Jobs</a>
+            </div>
+          </div>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item is-active"> Users </a>
+            <a class="navbar-item"> Schools </a>
+            <a class="navbar-item"> Clinics </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link"> More </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item"> About </a> <a class="navbar-item"> Jobs </a> <a class="navbar-item"> Contact
+                </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item"> Report an issue </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </section>
+
+    <section class="hero is-small is-primary"> <!-- head banner -->
+      <div class="hero-body">
+        <p class="title">Edit User</p>
+        <p class="subtitle">Jessi K.</p>
+      </div>
+    </section>
+    
+    <div class="block"></div>
+
+    <section> <!-- Edit user -->
+<div class="fixed-grid has-2-cols">
+  <div class="grid">
+    <div class="cell">
+      <form action="" class="box">
+
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Enter your name">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Username</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input is-success" type="text" placeholder="Enter your username" value="bulma">
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+          <p class="help is-success">This username is available</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input is-danger" type="email" placeholder="Enter your email" value="hello@">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+          </div>
+          <p class="help is-danger">This email is invalid</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Subject</label>
+          <div class="control">
+            <div class="select">
+              <select>
+                <option value="0" selected>Editor</option>
+                <option value="1">Admin</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Enter your message"></textarea>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light">Cancel</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <div class="block"></div>
+
+
+    <section> <!-- FOOTER -->
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+            The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+            website content is licensed
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >CC BY NC SA 4.0</a
+            >.
+          </p>
+        </div>
+      </footer>
+    </section>
+
+  </div>
+</body>
