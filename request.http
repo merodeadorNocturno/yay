@@ -1,0 +1,177 @@
+GET http://127.0.0.1:8080/clinical
+
+###
+
+POST http://127.0.0.1:8080/clinical
+Content-Type: application/json
+
+{
+    "uuid": "",
+    "name": "Dra. Metztli",
+    "last_name": "Calva",
+    "is_company": false,
+    "specialty": "Psiquiatra",
+    "email": "metztli_mylove@myheart.com",
+    "deleted": false,
+    "fb": "https://www.facebook.com/metztli.gonzalezmarquez",
+    "instagram": "https://www.instagram.com/drametzpsiquia/",
+    "linked_in": "https://mx.linkedin.com/in/metztli-calva-gonzalez-173576159",
+    "tik_tok": "https://www.tiktok.com/@metztlicat",
+    "twitter": "https://twitter.com/metztli",
+    "first_contact_date": "2024-04-05",
+    "sales_funnel": "PROSPECT",
+    "notes": "Contactada",
+    "services_offered": ["WEBSERVICES"],
+    "resolution": "Cool Contract",
+    "created_by": "882af177f2ad49d1b0ebf88b2c62274a",
+  "modified_by": "882af177f2ad49d1b0ebf88b2c62274a"
+}
+
+###
+
+GET http://127.0.0.1:8080/clinical/98ef8fef3d584fd2b4aad5052b26cc57
+
+###
+
+PATCH  http://127.0.0.1:8080/clinical
+Content-Type: application/json
+
+{
+    "uuid": "98ef8fef3d584fd2b4aad5052b26cc57",
+    "name": "Dra. Marisela",
+    "last_name": "Bezier",
+    "is_company": false,
+    "specialty": "Pediatra",
+    "email": "metztli_mylove@myheart.com",
+    "deleted": false,
+    "fb": "https://www.facebook.com/metztli.gonzalezmarquez",
+    "instagram": "https://www.instagram.com/drametzpsiquia/",
+    "linked_in": "https://mx.linkedin.com/in/metztli-calva-gonzalez-173576159",
+    "tik_tok": "https://www.tiktok.com/@metztlicat",
+    "twitter": null,
+    "first_contact_date": "2024-04-05",
+    "sales_funnel": "PROSPECT",
+    "notes": "Contactada",
+    "services_offered": ["WEBSERVICES", "BRANDING"],
+    "resolution": "Cool Contract",
+    "created_by": "882af177f2ad49d1b0ebf88b2c62274a",
+    "modified_by": "03a2b8c588ec40fcbe0925d2658b0be4"
+}
+
+###
+
+GET http://127.0.0.1:8080/users
+
+###
+
+POST http://127.0.0.1:8080/users
+Content-Type: application/json
+
+{
+    "name": "Choco",
+    "last_name": "Nocturno",
+    "email": "choco@yayleads.mx",
+    "role": "EDITOR",
+    "password": "el_chamuco_donosor.com"
+}
+
+###
+
+GET http://127.0.0.1:8080/users/1fe2869a9bb64260a6f1061c02ab1e2a
+
+###
+
+PATCH http://127.0.0.1:8080/users
+Content-Type: application/json
+
+{
+  "uuid": "63541cfc8f6449f396cd31419d2f395e",
+"name": "One",
+    "last_name": "Road",
+    "email": "one_road@yayleads.mx",
+    "role": "ADMIN",
+    "deleted": false,
+    "password": "mala_leche_no_por_favor_CorrectHorseBatteryStaple.",
+  "notes": "A very good editor, but no really and Admin."
+}
+
+###
+
+GET http://127.0.0.1:8080/enterprise
+
+###
+
+POST http://127.0.0.1:8080/enterprise
+Content-Type: application/json
+
+{
+  "uuid": "",
+  "name": "Cabbage Corp.",
+  "last_name": "Inc.",
+  "is_company": true,
+  "line_of_business": "Aerospace",
+  "email": "zaheer@cabbage.com",
+  "deleted": false,
+  "fb": "https://facebook.com/cabaggeCorp",
+  "instagram": "https://instagram.com/cabaggeCorp",
+  "linked_in": "@cabaggeCorp",
+  "tik_tok": "@cabaggeCorp",
+  "twitter": "@cabaggeCorp",
+  "first_contact_date": "2023-12-15T15:03:14.000Z",
+  "sales_funnel": "PROSPECT",
+  "notes": "Contacted through president Raikou",
+  "services_offered": [
+    "WEBSERVICES",
+    "BRANDING"
+  ],
+  "resolution": "In progress",
+  "created_by": "03a2b8c588ec40fcbe0925d2658b0be4",
+  "modified_by": "03a2b8c588ec40fcbe0925d2658b0be4"
+}
+
+###
+
+GET http://127.0.0.1:8080/enterprise/4d654cb369504e1fb5136b6bfa77f392
+
+###
+
+PATCH http://127.0.0.1:8080/enterprise
+Content-Type: application/json
+
+{
+  "uuid": "4d654cb369504e1fb5136b6bfa77f392",
+  "name": "Cabbage Corp.",
+  "last_name": "Inc.",
+  "is_company": true,
+  "line_of_business": "Aerospace",
+  "email": "zaheer@cabbage.com",
+  "deleted": false,
+  "fb": "https://facebook.com/cabaggeCorp",
+  "instagram": "https://instagram.com/cabaggeCorp",
+  "linked_in": "@cabaggeCorp",
+  "tik_tok": "@cabaggeCorp",
+  "twitter": "@cabaggeCorp",
+  "first_contact_date": "2023-12-15T15:03:14.000Z",
+  "sales_funnel": "PROSPECT",
+  "notes": "Contacted through president Raikou",
+  "services_offered": [
+    "BRANDING",
+    "DIGITALSTRATEGY"
+  ],
+  "resolution": "In progress",
+  "date_created": "2023-12-20T07:55:14-06:00",
+  "date_modified": "2024-04-10T08:23:42.333-06:00",
+
+  "modified_by": "882af177f2ad49d1b0ebf88b2c62274a"
+}
+
+###
+
+POST http://127.0.0.1:8080/user_htmx/715d406f42d6454e9d4f72c6847da172
+Content-Type: text/html
+
+###
+
+POST http://127.0.0.1:8080/user_htmx
+Content-Type: text/html
+
