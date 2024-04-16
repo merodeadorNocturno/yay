@@ -68,16 +68,16 @@ POST http://127.0.0.1:8080/users
 Content-Type: application/json
 
 {
-    "name": "Choco",
-    "last_name": "Nocturno",
-    "email": "choco@yayleads.mx",
-    "role": "EDITOR",
-    "password": "el_chamuco_donosor.com"
+    "name": "Pilar",
+    "last_name": "Cravioto",
+    "email": "pilar.cravioto@yayleads.mx",
+    "role": "ADMIN",
+    "password": "Im_sure_municipal_meeting_train"
 }
 
 ###
 
-GET http://127.0.0.1:8080/users/1fe2869a9bb64260a6f1061c02ab1e2a
+GET http://127.0.0.1:8080/users/a24234a77a77478993ae230a672f909f
 
 ###
 
@@ -85,7 +85,7 @@ PATCH http://127.0.0.1:8080/users
 Content-Type: application/json
 
 {
-  "uuid": "63541cfc8f6449f396cd31419d2f395e",
+  "uuid": "4e59d6edc2b0469dbdd31865e8001564 ",
 "name": "One",
     "last_name": "Road",
     "email": "one_road@yayleads.mx",
@@ -106,32 +106,33 @@ Content-Type: application/json
 
 {
   "uuid": "",
-  "name": "Cabbage Corp.",
-  "last_name": "Inc.",
+  "name": "Stephanie",
+  "last_name": "Best",
   "is_company": true,
-  "line_of_business": "Aerospace",
-  "email": "zaheer@cabbage.com",
+  "company_name": "Best Enterprise",
+  "line_of_business": "YouTube and Media",
+  "email": "stephanie@best.com",
+  "phone": "5578442211",
   "deleted": false,
-  "fb": "https://facebook.com/cabaggeCorp",
-  "instagram": "https://instagram.com/cabaggeCorp",
-  "linked_in": "@cabaggeCorp",
-  "tik_tok": "@cabaggeCorp",
-  "twitter": "@cabaggeCorp",
+  "fb": "https://facebook.com/bestenterprise",
+  "instagram": "https://instagram.com/bestenterprise",
+  "linked_in": "@BestEnterprise",
+  "tik_tok": "@BestEnterprise",
+  "twitter": "@BestEnterprise",
   "first_contact_date": "2023-12-15T15:03:14.000Z",
-  "sales_funnel": "PROSPECT",
-  "notes": "Contacted through president Raikou",
+  "sales_funnel": "NEGOTIATION",
+  "notes": "Contacted through facebook",
   "services_offered": [
-    "WEBSERVICES",
-    "BRANDING"
+    "ATTRACTIONOFNEWCLIENTS", "SALESMANAGEMENT"
   ],
-  "resolution": "In progress",
+  "resolution": "Work in Progress",
   "created_by": "03a2b8c588ec40fcbe0925d2658b0be4",
   "modified_by": "03a2b8c588ec40fcbe0925d2658b0be4"
 }
 
 ###
 
-GET http://127.0.0.1:8080/enterprise/4d654cb369504e1fb5136b6bfa77f392
+GET http://127.0.0.1:8080/enterprise/365f81824afd4b63b6baadbe967c1aa2
 
 ###
 
@@ -139,18 +140,19 @@ PATCH http://127.0.0.1:8080/enterprise
 Content-Type: application/json
 
 {
-  "uuid": "4d654cb369504e1fb5136b6bfa77f392",
-  "name": "Cabbage Corp.",
-  "last_name": "Inc.",
-  "is_company": true,
+  "uuid": "365f81824afd4b63b6baadbe967c1aa2",
+  "name": "Damian",
+  "last_name": "Thorn",
+  "is_company": false,
+  "company_name": null,
   "line_of_business": "Aerospace",
-  "email": "zaheer@cabbage.com",
+  "email": "d_thorn@thorn.com",
   "deleted": false,
-  "fb": "https://facebook.com/cabaggeCorp",
-  "instagram": "https://instagram.com/cabaggeCorp",
-  "linked_in": "@cabaggeCorp",
-  "tik_tok": "@cabaggeCorp",
-  "twitter": "@cabaggeCorp",
+  "fb": "https://facebook.com/thornindustries",
+  "instagram": "https://instagram.com/thornindustries",
+  "linked_in": "@thornindustries",
+  "tik_tok": "@thornindustries",
+  "twitter": "@thornindustries",
   "first_contact_date": "2023-12-15T15:03:14.000Z",
   "sales_funnel": "PROSPECT",
   "notes": "Contacted through president Raikou",
@@ -164,6 +166,11 @@ Content-Type: application/json
 
   "modified_by": "882af177f2ad49d1b0ebf88b2c62274a"
 }
+
+###
+
+POST http://127.0.0.1:8080/enterprise_table
+Content-Type: application/json
 
 ###
 

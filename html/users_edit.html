@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8">
   <title>YayLeads Edit User</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" /> -->
+  <link rel="stylesheet" href="/styles/styles.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
   <script src="https://unpkg.com/htmx.org@1.9.11"></script>
@@ -42,7 +43,7 @@
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
             <a class="navbar-item is-active"> Users </a>
-            <a class="navbar-item"> Schools </a>
+            <a class="navbar-item" hx-post="http://127.0.0.1:8080/enterprise_table" hx-swap="innerHTML" hx-target="#main-content"> Enterprise </a>
             <a class="navbar-item"> Clinics </a>
 
             <div class="navbar-item has-dropdown is-hoverable">
@@ -56,7 +57,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </nav>
     </section>
@@ -70,7 +70,7 @@
     
     <div class="block"></div>
 
-    <section> <!-- Edit user -->
+    <section id="main-content"> <!-- #main-content -->
 <div class="fixed-grid has-2-cols">
   <div class="grid">
     <div class="cell">

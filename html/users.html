@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8">
   <title>YayLeads Edit User</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="/styles/styles.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
     <script src="https://unpkg.com/htmx.org@1.9.11"></script>
@@ -41,7 +41,8 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item is-active" hx-post="http://127.0.0.1:8080/user_htmx" hx-swap="innerHTML" hx-target="#dynamic-content"> Users </a>
+            <a class="navbar-item is-active" hx-post="http://127.0.0.1:8080/user_htmx" hx-swap="innerHTML" hx-target="#user-table-dynamic-content"> Users </a>
+            <a class="navbar-item" hx-post="http://127.0.0.1:8080/enterprise_table" hx-swap="innerHTML" hx-target="#dynamic-content"> Enterprise </a>
             <a class="navbar-item"> Schools </a>
             <a class="navbar-item"> Clinics </a>
 
@@ -70,51 +71,57 @@
     
     <div class="block"></div>
 
-    <section id="dynamic-content"> <!-- Table user -->
-      <table class="table is-bordered is-striped is-hoverable">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Role</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>John Doe</td>
-                <td>john@example.com</td>
-                <td>User</td>
-                <td>
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-pencil-alt"></i>
-                  </span>
-                  &nbsp;
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-trash"></i>
-                  </span>
-                </td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jane Smith</td>
-                <td>jane@example.com</td>
-                <td>Admin</td>
-                <td>
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-pencil-alt"></i>
-                  </span>
-                  &nbsp;
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-trash"></i>
-                  </span>
-                </td>
-            </tr>
-            <!-- Add more rows for other users -->
-        </tbody>
-    </table>
+    <section class="section" id="dynamic-content"> <!-- Table user -->
+      <div class="columns">
+        <div class="column" id="user-table-dynamic-content">
+          <table class="table is-bordered is-striped is-hoverable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>User</td>
+                    <td>
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-pencil-alt"></i>
+                      </span>
+                      &nbsp;
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-trash"></i>
+                      </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>jane@example.com</td>
+                    <td>Admin</td>
+                    <td>
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-pencil-alt"></i>
+                      </span>
+                      &nbsp;
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-trash"></i>
+                      </span>
+                    </td>
+                </tr>
+                <!-- Add more rows for other users -->
+            </tbody>
+        </table>
+        </div>
+        <div class="column" id="edit-user-dynamic-content"></div>
+      </div>
+     
     </section>
 
     <div class="block"></div>

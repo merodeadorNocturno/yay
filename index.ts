@@ -33,10 +33,10 @@ const handler = (req: Request): Promise<Response> | Response => {
     return serveFile(req, "./html/clinical.html");
   }
 
-  if (pathname.startsWith("/static")) {
+  if (pathname.startsWith("/styles")) {
     return serveDir(req, {
-      fsRoot: "html",
-      urlRoot: "static",
+      fsRoot: "css",
+      urlRoot: "styles",
     })
     .then((response) => {
       setCorsHeaders(response);
