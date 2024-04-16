@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <title>YayLeads Edit User</title>
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+  <script src="https://unpkg.com/htmx.org@1.9.11"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.11/dist/ext/json-enc.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <section class="section"> <!-- Navbar section -->
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a href="https://yayleads.mx" class="navbar-item">
+            <img
+              src="https://media.licdn.com/dms/image/C4E0BAQFiPmMfUP226g/company-logo_200_200/0/1672639387526/yayleadsmx_logo?e=2147483647&v=beta&t=iTE1q3k9J3Q6vBt7U8N4WNk1vuj8b3W7auP0a4hmHTg"
+              alt="" width="64" height="64">
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-dropdown">
+              <a href="#" class="navbar-item">Acerca del CRM</a>
+              <a href="#" class="navbar-item">Another Item</a>
+            </div>
+          </div>
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a href="" class="navbar-item is-active" hx-post="http://127.0.0.1:8080/user_htmx" hx-swap="innerHTML"
+              hx-target="#dynamic-content">Users</a>
+            <a class="navbar-item" hx-post="http://127.0.0.1:8080/enterprise_table" hx-swap="innerHTML"
+              hx-target="#dynamic-content"> Enterprise </a>
+            <a class="navbar-item" hx-post="http://127.0.0.1:8080/help" hx-swap="innerHTML"
+              hx-target="#dynamic-content"> Help </a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="hero is-small is-primary"> <!-- Head banner -->
+      <div class="hero-body">
+        <p class="title">CRM</p>
+        <p class="subtitle">Yay Leads</p>
+      </div>
+    </section>
+
+    <div class="block"></div>
+
+    <!-- here's where the magic happen -->
+    <section class="section" id="dynamic-content">
+
+    </section>
+
+    <div class="block"></div>
+
+    <section class="section">
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>&copy; 2024 Yay Leads</strong>
+          </p>
+        </div>
+      </footer>
+    </section>
+  </div>
+
+</body>
+
+</html>

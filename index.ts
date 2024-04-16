@@ -17,6 +17,10 @@ const handler = (req: Request): Promise<Response> | Response => {
     return serveFile(req, "./html/login.html");
   }
 
+  if (pathname === "/") {
+    return serveFile(req, "./html/index.html");
+  }
+
   if (pathname === "/users/edit") {
     return serveFile(req, "./html/users_edit.html");
   }

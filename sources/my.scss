@@ -1,14 +1,15 @@
 // Path to Bulma's sass folder
-@use "bulma/sass" with (
-  $family-primary: '"Nunito", sans-serif',
+@use "../scss/bulma/sass" with ($family-primary: '"Nunito", sans-serif',
   $control-border-width: 2px,
-  $column-gap: 0.33rem
-);
+  $column-gap: 0.33rem);
+
+@use "../scss/bulma/sass/layout/hero.scss" as h;
 
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
@@ -55,7 +56,15 @@
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  // text-overflow: ellipsis;
 }
+
+.has-background-info-50, #enterprise-container .columns:nth-child(even) p {
+  --bulma-background-l: var(--bulma-info-50-l);
+}
+
+.has-background-info-30, #enterprise-container .columns:nth-child(odd) p {
+  --bulma-background-l: var(--bulma-info-50-l);
+}
+
 // Import the Google Font
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");

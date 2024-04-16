@@ -15315,11 +15315,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-white.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-white.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-black {
@@ -15352,11 +15352,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-black.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-black.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-light {
@@ -15389,11 +15389,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-light.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-light.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-dark {
@@ -15426,11 +15426,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-dark.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-dark.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-text {
@@ -15463,11 +15463,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-text.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-text.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-primary {
@@ -15500,11 +15500,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-primary.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-primary.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-link {
@@ -15537,11 +15537,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-link.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-link.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-info {
@@ -15574,11 +15574,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-info.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-info.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-success {
@@ -15611,11 +15611,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-success.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-success.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-warning {
@@ -15648,11 +15648,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-warning.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-warning.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-danger {
@@ -15685,11 +15685,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-danger.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-danger.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-prospect {
@@ -15722,11 +15722,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-prospect.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-prospect.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-research {
@@ -15759,11 +15759,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-research.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-research.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-quote {
@@ -15796,11 +15796,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-quote.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-quote.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-negotiation {
@@ -15833,11 +15833,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-negotiation.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-negotiation.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-win {
@@ -15870,11 +15870,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-win.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-win.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-lost {
@@ -15907,11 +15907,11 @@ label.panel-block:hover {
   --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
 }
 .hero.is-lost.is-bold {
-  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+  background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-lost.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - $hero-gradient-h-offset), calc(var(--bulma-hero-s) + $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) + $hero-gradient-l-offset)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + $hero-gradient-h-offset), calc(var(--bulma-hero-s) - $hero-gradient-s-offset), calc(var(--bulma-hero-background-l) - $hero-gradient-l-offset)) 100%);
+    background-image: linear-gradient(141deg, hsl(calc(var(--bulma-hero-h) - 5deg), calc(var(--bulma-hero-s) + 10%), calc(var(--bulma-hero-background-l) + 5%)) 0%, hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l)) 71%, hsl(calc(var(--bulma-hero-h) + 5deg), calc(var(--bulma-hero-s) - 10%), calc(var(--bulma-hero-background-l) - 5%)) 100%);
   }
 }
 .hero.is-small .hero-body {
@@ -29111,4 +29111,12 @@ has-background-lost.is-hoverable:active {
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.has-background-info-50, #enterprise-container .columns:nth-child(even) p {
+  --bulma-background-l: var(--bulma-info-50-l);
+}
+
+.has-background-info-30, #enterprise-container .columns:nth-child(odd) p {
+  --bulma-background-l: var(--bulma-info-50-l);
 }
