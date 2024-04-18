@@ -3,7 +3,8 @@
   $control-border-width: 2px,
   $column-gap: 0.33rem);
 
-@use "../scss/bulma/sass/layout/hero.scss" as h;
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
 
 .tooltip {
   position: relative;
@@ -63,8 +64,7 @@
 }
 
 .has-background-info-30, #enterprise-container .columns:nth-child(odd) p {
-  --bulma-background-l: var(--bulma-info-50-l);
+  --bulma-background-l: var(--bulma-info-30-l);
 }
 
 // Import the Google Font
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");

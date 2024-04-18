@@ -47,6 +47,17 @@ const handler = (req: Request): Promise<Response> | Response => {
       return response
     });
   }
+
+  if (pathname.startsWith("/media")) {
+    return serveDir(req, {
+      fsRoot: "media",
+      urlRoot: "media",
+    })
+    .then((response) => {
+      setCorsHeaders(response);
+      return response
+    });
+  }
   return new Response("404: Not Found", { status: 404 });
 };
 
