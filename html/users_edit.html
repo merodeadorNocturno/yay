@@ -43,7 +43,7 @@
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
             <a class="navbar-item is-active"> Users </a>
-            <a class="navbar-item" hx-post="http://127.0.0.1:8080/enterprise_table" hx-swap="innerHTML" hx-target="#main-content"> Enterprise </a>
+            <a class="navbar-item" hx-post="http://192.168.68.106:8080/enterprise_table" hx-swap="innerHTML" hx-target="#main-content"> Enterprise </a>
             <a class="navbar-item"> Clinics </a>
 
             <div class="navbar-item has-dropdown is-hoverable">
@@ -76,7 +76,7 @@
     <div class="cell">
       <form
       class="box" id="edit-user"
-      hx-post="http://127.0.0.1:8080/users"
+      hx-post="http://192.168.68.106:8080/users"
       hx-swap="innerHTML" hx-headers='{"Content-Type": "application/json"}' hx-ext='json-enc'
       hx-vals='{"deleted": false}'
       >

@@ -1,8 +1,8 @@
-GET http://127.0.0.1:8080/clinical
+GET http://192.168.68.106:8080/clinical
 
 ###
 
-POST http://127.0.0.1:8080/clinical
+POST http://192.168.68.106:8080/clinical
 Content-Type: application/json
 
 {
@@ -29,11 +29,11 @@ Content-Type: application/json
 
 ###
 
-GET http://127.0.0.1:8080/clinical/98ef8fef3d584fd2b4aad5052b26cc57
+GET http://192.168.68.106:8080/clinical/98ef8fef3d584fd2b4aad5052b26cc57
 
 ###
 
-PATCH  http://127.0.0.1:8080/clinical
+PATCH  http://192.168.68.106:8080/clinical
 Content-Type: application/json
 
 {
@@ -60,11 +60,11 @@ Content-Type: application/json
 
 ###
 
-GET http://127.0.0.1:8080/users
+GET http://192.168.68.106:8080/users
 
 ###
 
-POST http://127.0.0.1:8080/users
+POST http://192.168.68.106:8080/users
 Content-Type: application/json
 
 {
@@ -77,31 +77,31 @@ Content-Type: application/json
 
 ###
 
-GET http://127.0.0.1:8080/users/a24234a77a77478993ae230a672f909f
+GET http://192.168.68.106:8080/users/671cae6fb18a4a0d98da79808fd6be7e
 
 ###
 
-PATCH http://127.0.0.1:8080/users
+PATCH http://192.168.68.106:8080/users
 Content-Type: application/json
 
 {
-  "uuid": "4e59d6edc2b0469dbdd31865e8001564 ",
-"name": "One",
-    "last_name": "Road",
-    "email": "one_road@yayleads.mx",
-    "role": "ADMIN",
-    "deleted": false,
-    "password": "mala_leche_no_por_favor_CorrectHorseBatteryStaple.",
-  "notes": "A very good editor, but no really and Admin."
+  "uuid": "671cae6fb18a4a0d98da79808fd6be7e",
+  "name": "Pilar",
+  "last_name": "Cravioto",
+  "email": "pilar.cravioto@yayleads.mx",
+  "password": null,
+  "role": "ADMIN",
+  "notes": "unas notas chidas",
+  "deleted": false
 }
 
 ###
 
-GET http://127.0.0.1:8080/enterprise
+GET http://192.168.68.106:8080/enterprise
 
 ###
 
-POST http://127.0.0.1:8080/enterprise
+POST http://192.168.68.106:8080/enterprise
 Content-Type: application/json
 
 {
@@ -132,11 +132,11 @@ Content-Type: application/json
 
 ###
 
-GET http://127.0.0.1:8080/enterprise/365f81824afd4b63b6baadbe967c1aa2
+GET http://192.168.68.106:8080/enterprise/365f81824afd4b63b6baadbe967c1aa2
 
 ###
 
-PATCH http://127.0.0.1:8080/enterprise
+PATCH http://192.168.68.106:8080/enterprise
 Content-Type: application/json
 
 {
@@ -167,16 +167,20 @@ Content-Type: application/json
 
 ###
 
-POST http://127.0.0.1:8080/enterprise_table
+POST http://192.168.68.106:8080/enterprise_table
 Content-Type: application/json
 
 ###
 
-POST http://127.0.0.1:8080/user_htmx/715d406f42d6454e9d4f72c6847da172
+POST http://192.168.68.106:8080/user_htmx/715d406f42d6454e9d4f72c6847da172
 Content-Type: text/html
 
 ###
 
-POST http://127.0.0.1:8080/user_htmx
+POST http://192.168.68.106:8080/user_htmx
 Content-Type: text/html
+
+###
+
+GET http://192.168.68.106:8080/help_enterprise_servicios
 

@@ -8,8 +8,12 @@
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" /> -->
 
   <link rel="stylesheet" href="/styles/styles.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" /> -->
+    <link
+    rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v5.15.4/css/all.css"
+  />
   <script src="https://unpkg.com/htmx.org@1.9.11" defer></script>
   <script src="https://unpkg.com/htmx.org@1.9.11/dist/ext/json-enc.js" defer></script>
 </head>
@@ -20,7 +24,7 @@
     <section class="section"> <!-- Navbar section -->
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a href="http://127.0.0.1:8001" class="navbar-item">
+          <a href="http://192.168.68.106:8001" class="navbar-item">
             <img
               src="https://media.licdn.com/dms/image/C4E0BAQFiPmMfUP226g/company-logo_200_200/0/1672639387526/yayleadsmx_logo?e=2147483647&v=beta&t=iTE1q3k9J3Q6vBt7U8N4WNk1vuj8b3W7auP0a4hmHTg"
               alt="Yay leads">
@@ -42,12 +46,12 @@
         <div class="navbar-menu">
           <div class="navbar-start" id="navbar-start-id">
             <a href="" class="navbar-item"
-              hx-post="http://127.0.0.1:8080/user_htmx" hx-swap="innerHTML"
+              hx-post="http://192.168.68.106:8080/user_htmx" hx-swap="innerHTML"
               hx-target="#dynamic-content"
               >Users</a>
-            <a class="navbar-item" hx-post="http://127.0.0.1:8080/enterprise_table" hx-swap="innerHTML"
+            <a class="navbar-item" hx-post="http://192.168.68.106:8080/enterprise_table" hx-swap="innerHTML"
               hx-target="#dynamic-content"> Enterprise </a>
-            <a class="navbar-item" hx-get="http://127.0.0.1:8080/help" hx-swap="innerHTML" hx-target="#dynamic-content">
+            <a class="navbar-item" hx-get="http://192.168.68.106:8080/help" hx-swap="innerHTML" hx-target="#dynamic-content">
               Help </a>
           </div>
         </div>
@@ -67,7 +71,7 @@
     <section class="section" id="dynamic-content">
       <div class="hero-body">
         <video poster="" id="bgvid" playsinline autoplay muted loop preload="auto">
-            <source src="http://127.0.0.1:8001/media/main_background.mp4" type="video/mp4">
+            <source src="http://192.168.68.106:8001/media/main_background.mp4" type="video/mp4">
         </video>
     </div>
     </section>
@@ -85,10 +89,27 @@
     </section>
   </div>
 
+
+  <!-- Modals -->
+
+  <div id="error_enterprise_table_modal" class="modal">
+    <div class="modal-background"></div>
+  
+    <div class="modal-content">
+      <div class="box">
+        <p>Error loading Enterprise section</p>
+        <!-- Your content -->
+      </div>
+    </div>
+  
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
 </body>
 <script>
   (() => {
 
+    // functions
     const remove_class = (element = [], dom_class = '') => {
       for (const child_node of element) {
         if (child_node.nodeType === Node.ELEMENT_NODE) {
@@ -104,6 +125,10 @@
     };
 
     const nbs = document.getElementById('navbar-start-id');
+
+    const close_modal = (element) => element.classList.remove('is-active');
+
+    // Listeners
     nbs.addEventListener('enterprise_table', (e) => {
       add_skeleton();
       const enterprise_element = e.target;
@@ -133,7 +158,28 @@
 
       help_element.classList.add('is-active');
     })
-  })()
+
+    nbs.addEventListener('error_enterprise_table', (e) => {
+      const error_modal = document.getElementById('error_enterprise_table_modal');
+      error_modal.classList.add('is-active');
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === "Escape") {
+        (document.querySelectorAll('.modal') || []).forEach(($modal) => close_modal($modal));
+      };
+    });
+
+    const mc = document.querySelectorAll('.modal-close');
+    const m = document.querySelectorAll('.modal');
+    for (let modal_close of mc) {
+      modal_close.addEventListener(
+        'click',
+        (e) => m.forEach((el) => close_modal(el)),
+      );
+    }
+
+  })();
 
 </script>
 
